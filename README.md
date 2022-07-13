@@ -4,10 +4,6 @@ Forked from [@sarafhbk/react-audio-recorder](https://www.npmjs.com/package/@sara
 
 > This is a simple audio recorder package for react application using the javascript [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 
-# Demo
-
-Checkout the [Demo.](https://LucasSilbernagel.github.io/react-audio-recorder)
-
 ## Install
 
 ```bash
