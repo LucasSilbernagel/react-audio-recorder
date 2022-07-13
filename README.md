@@ -1,4 +1,4 @@
-# @lucassilbernagel/react-audio-recorder
+# lucas-silbernagel-react-audio-recorder
 
 Forked from [@sarafhbk/react-audio-recorder](https://www.npmjs.com/package/@sarafhbk/react-audio-recorder)
 
@@ -12,7 +12,7 @@ Checkout the [Demo.](https://LucasSilbernagel.github.io/react-audio-recorder)
 
 ```bash
 
-npm install --save @lucassilbernagel/react-audio-recorder
+npm install --save lucas-silbernagel-react-audio-recorder
 
 ```
 
@@ -34,7 +34,7 @@ npm install --save @lucassilbernagel/react-audio-recorder
 ```tsx
 import React, { Component } from 'react'
 
-import { ReactAudioRecorder } from '@lucassilbernagel/react-audio-recorder'
+import { ReactAudioRecorder } from 'lucas-silbernagel-react-audio-recorder'
 
 class Example extends Component {
   render() {
@@ -80,7 +80,7 @@ class Example extends Component {
 ```tsx
 import React from 'react'
 
-import { useAudioRecorder } from '@lucassilbernagel/react-audio-recorder'
+import { useAudioRecorder } from 'lucas-silbernagel-react-audio-recorder'
 
 function Example() {
   const {

@@ -2,7 +2,7 @@ import React from 'react'
 import {
   ReactAudioRecorder,
   RECORD_STATUS
-} from '@lucassilbernagel/react-audio-recorder'
+} from 'lucas-silbernagel-react-audio-recorder'
 
 function ClassVersion() {
   return (
