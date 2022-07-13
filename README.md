@@ -1,20 +1,18 @@
-# @sarafhbk/react-audio-recorder
+# @lucassilbernagel/react-audio-recorder
+
+Forked from [@sarafhbk/react-audio-recorder](https://www.npmjs.com/package/@sarafhbk/react-audio-recorder)
 
 > This is a simple audio recorder package for react application using the javascript [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 
-[![NPM](https://img.shields.io/npm/v/@sarafhbk/react-audio-recorder.svg)](https://www.npmjs.com/package/@sarafhbk/react-audio-recorder) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 # Demo
 
-Checkout the [Demo.](https://sarafhbk.github.io/react-audio-recorder)
+Checkout the [Demo.](https://LucasSilbernagel.github.io/react-audio-recorder)
 
 ## Install
 
 ```bash
 
-npm install --save @sarafhbk/react-audio-recorder
-
-yarn add @sarafhbk/react-audio-recorder
+npm install --save @lucassilbernagel/react-audio-recorder
 
 ```
 
@@ -36,7 +34,7 @@ yarn add @sarafhbk/react-audio-recorder
 ```tsx
 import React, { Component } from 'react'
 
-import { ReactAudioRecorder } from '@sarafhbk/react-audio-recorder'
+import { ReactAudioRecorder } from '@lucassilbernagel/react-audio-recorder'
 
 class Example extends Component {
   render() {
@@ -82,7 +80,7 @@ class Example extends Component {
 ```tsx
 import React from 'react'
 
-import { useAudioRecorder } from '@sarafhbk/react-audio-recorder'
+import { useAudioRecorder } from '@lucassilbernagel/react-audio-recorder'
 
 function Example() {
   const {
@@ -120,4 +118,4 @@ function Example() {
 
 ## License
 
-MIT © [sarafhbk](https://github.com/sarafhbk)
+MIT © [LucasSilbernagel](https://github.com/LucasSilbernagel)

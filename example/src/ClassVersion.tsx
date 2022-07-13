@@ -2,7 +2,7 @@ import React from 'react'
 import {
   ReactAudioRecorder,
   RECORD_STATUS
-} from '@sarafhbk/react-audio-recorder'
+} from '@lucassilbernagel/react-audio-recorder'
 
 function ClassVersion() {
   return (
@@ -21,9 +21,8 @@ function ClassVersion() {
           <div className='inner-container'>
             <audio controls src={audioResult} />
             <p
-              className={`timer ${
-                status === RECORD_STATUS.PAUSED ? 'blink-animation' : ''
-              }`}
+              className={`timer ${status === RECORD_STATUS.PAUSED ? 'blink-animation' : ''
+                }`}
             >
               {new Date(timer * 1000).toISOString().substr(11, 8)}
             </p>
@@ -39,9 +38,8 @@ function ClassVersion() {
                 }
               >
                 <i
-                  className={`fas fa-${
-                    status === RECORD_STATUS.RECORDING ? 'pause' : 'play'
-                  }`}
+                  className={`fas fa-${status === RECORD_STATUS.RECORDING ? 'pause' : 'play'
+                    }`}
                 ></i>
               </button>
               <button className='btn-record' onClick={startRecording}>

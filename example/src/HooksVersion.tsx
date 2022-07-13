@@ -1,5 +1,5 @@
 import React from 'react'
-import { RECORD_STATUS, useAudioRecorder } from '@sarafhbk/react-audio-recorder'
+import { RECORD_STATUS, useAudioRecorder } from '@lucassilbernagel/react-audio-recorder'
 
 function HooksVersion() {
   const {
@@ -17,9 +17,8 @@ function HooksVersion() {
       <div className='inner-container'>
         <audio controls src={audioResult} />
         <p
-          className={`timer ${
-            status === RECORD_STATUS.PAUSED ? 'blink-animation' : ''
-          }`}
+          className={`timer ${status === RECORD_STATUS.PAUSED ? 'blink-animation' : ''
+            }`}
         >
           {new Date(timer * 1000).toISOString().substr(11, 8)}
         </p>
@@ -35,9 +34,8 @@ function HooksVersion() {
             }
           >
             <i
-              className={`fas fa-${
-                status === RECORD_STATUS.RECORDING ? 'pause' : 'play'
-              }`}
+              className={`fas fa-${status === RECORD_STATUS.RECORDING ? 'pause' : 'play'
+                }`}
             ></i>
           </button>
           <button className='btn-record' onClick={startRecording}>

@@ -1,5 +1,5 @@
 {
-  "name": "@sarafhbk/react-audio-recorder-example",
+  "name": "@lucassilbernagel/react-audio-recorder-example",
   "homepage": "http://sarafhbk.github.io/react-audio-recorder",
   "version": "0.0.0",
   "private": true,
@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@sarafhbk/react-audio-recorder": "link:..",
+    "@lucassilbernagel/react-audio-recorder": "link:..",
     "@testing-library/jest-dom": "link:../node_modules/@testing-library/jest-dom",
     "@testing-library/react": "link:../node_modules/@testing-library/react",
     "@testing-library/user-event": "link:../node_modules/@testing-library/user-event",
